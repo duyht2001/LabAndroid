@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.cntt61.intent">
+    package="cntt61.h61133717">
 
     <application
         android:allowBackup="true"
@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Intent">
+        <activity
+            android:name=".SubActivityOne"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
