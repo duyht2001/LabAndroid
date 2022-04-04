@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".SubActivityOne">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+        android:text="BẠN ĐANG Ở MÀN HÌNH THỨ 2"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#888282"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUAY LẠI TRANG CHỦ"
+        android:id="@+id/btnLogin"
+        android:onClick="quayve"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#009688"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
